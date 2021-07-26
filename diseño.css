@@ -73,7 +73,7 @@ a{
             display: flex;
             align-items: flex-end;
         }
-            h1 index{
+            .indexText{
                 position: relative;
                 bottom: 25rem;
                 background: rgba(167, 163, 163, 0.5);
