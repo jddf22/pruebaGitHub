@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("glutenfree galeria/Gluten free fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    max-width: 100%;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px;
+}
+header{
+    background: rgba(0,0,0,.1);
+    height: 80px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    border-bottom: #fff solid;
+    border-width: 0.2px;
+}
+    .logo{
+        position: relative;
+        left: 50px;
+        bottom: 5px;
+        font-size: 25px;
+        font-family: 'Charmonman', cursive;
+    }
+    .logo a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .logo a:hover{
+        color: #343434;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 30px;
+    }
+    .nav a{
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .nav a:hover{
+        color: #343434;
+    }
+
+main{
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+}
+    .articulos{
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+    }
+        .article1{
+            display: grid;
+        }
+        .article1 img{
+            margin-top: 50px;
+            margin-left: 20px;
+            width: 80%;
+        }
+        .article1 img:hover{
+            transform: translate(90px)
+        }
+
+        .article2 h2{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-top: 3px;
+            background-color: lightsalmon;
+            display: grid;
+            justify-content: center;
+
+        }
+        .article2 img{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+        .article2 h3{
+            font-family: 'Amatic SC', cursive;
+            font-size: 35px;
+            letter-spacing: 2px;
+            color: rgb(250, 242, 252);
+            display: grid;
+            margin-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background: rgba(0,0,0,.1);
+        }
+        .article2 h4{
+            font-size: 20px;
+            display: grid;
+            justify-content: end;
+            
+        }
+        @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+         }
+    footer{
+        height: 100px;
+        display: grid;
+    }
+        .pie{
+            font-size: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle, #FFAEC0, #28527A, #FFC75F, #F8DC81)
+        }
