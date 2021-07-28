@@ -17,7 +17,7 @@ header{
     background: rgba(0,0,0,.1);
     height: 80px;
     display: grid;
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 3fr 5fr;
     border-bottom: #fff solid;
     border-width: 0.2px;
 }
