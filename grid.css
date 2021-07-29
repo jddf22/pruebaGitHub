@@ -116,7 +116,7 @@ main{
         display: grid;
     }
         .pie{
-            font-size: 25px;
+            font-size: 20px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             justify-content: center;
