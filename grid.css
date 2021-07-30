@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container{
-    background-image: url("glutenfree galeria/Gluten free fondo.jpg");
+    background-image: url("./glutenfree galeria/Gluten free fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
