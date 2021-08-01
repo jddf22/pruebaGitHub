@@ -1,0 +1,66 @@
+@mixin bloque1(){
+    display: flex;
+    flex-flow: column nowrap;
+}
+@mixin bloque2(){
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.padre{
+    @include bloque1();
+    .margen{
+        padding: 0 50px;
+    }
+    .header{
+        @include bloque1();    
+        .menu{
+            @include bloque2();
+            background: rgba(0,0,0,.1);
+            height: 80px;
+            align-items: center;
+            border-bottom: 1px solid rgba(255,255,255,.5);    
+        }
+        .logo{
+            flex: 1 1 auto;
+            margin-top: 8px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 50px;
+                font-family: 'Charmonman', cursive;
+            
+                &:hover{
+                    color: #343434;
+                }
+            }
+        }
+        .nav{
+                    
+            flex: 5 1 auto;
+            a{
+                color:#fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding: 0 10px;
+                letter-spacing: 2px;
+            
+                &:hover{
+                    color: #343434;
+                }
+            }
+        }
+        .social{
+            flex: 1 1 auto;
+            display: flex;
+        }
+        .social a{
+            font-size: 18px;
+            color: #fff;
+            padding: 0 5px;
+        }    
+        
+    }
+}
+

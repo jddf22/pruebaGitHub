@@ -1,0 +1,31 @@
+/*-----------contenido index.html----------*/
+
+.texto-principal{
+    height: 580px;
+    display: flex;
+    align-items: flex-end;
+    .margen{
+        padding: 0 50px;
+    }
+    .indexText{
+        position: relative;
+        bottom: 23rem;
+        background: rgba(167, 163, 163, 0.5);
+        font-family: cursive;
+        font-size: 25px;
+        color: #13010e;
+        font-weight: 300;
+        text-align: center;
+        line-height: 1.6;
+        .infoGluten{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            bottom: 15rem;
+            left: 5rem;
+        }
+    }
+}

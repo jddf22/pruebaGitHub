@@ -1,0 +1,48 @@
+
+/*-----------contenido nosotros.html GRID y FLEX----------*/
+
+@mixin mover(){
+    transform: translate(90px);
+    }
+.containGrid{
+    display: grid;
+    grid-template-columns: 100% 100%;
+    .articulos{
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+        .article1{
+            display: grid;
+            img{
+                margin-top: 50px;
+                margin-left: 20px;
+                width: 60%;
+                &:hover{
+                    @include mover;
+                }
+            }
+        }
+    }
+    .article2{
+        position: relative;
+        top: 4rem;
+        right: 4rem;
+        h2{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-top: 3px;
+            background-color: lightsalmon;
+            display: grid;
+            justify-content: center;
+            h3{
+                font-family: 'Amatic SC', cursive;
+                font-size: 35px;
+                letter-spacing: 2px;
+                color: rgb(250, 242, 252);
+                display: grid;
+                background: rgba(0,0,0,.1);
+            }
+        }
+    }    
+}

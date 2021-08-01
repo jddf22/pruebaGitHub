@@ -1,0 +1,46 @@
+/*--------------contenido de galeria.html-------------*/
+@mixin escalar(){
+    transform: scale(1.3, 1.3);
+}
+.titleGallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #000000;
+}
+.contain{
+    display: flex;
+    height: 500px;
+    flex-flow: row wrap;
+    margin-top: 10px;
+    padding: 10px; 
+    align-items: flex-start;
+    justify-content: space-around;
+    .margen{
+        padding: 0 50px;
+    }
+    .items{
+        position: relative;
+        bottom: 80px;
+        width: 250px;
+        margin: 10px;
+        img{
+            width: 100%;
+            border-radius: 10px;
+                &:hover{
+                    @include escalar;
+                }
+            h3{
+                font-size: 20px;
+                color: #000000;
+                padding: 5px;
+                margin-top: -10px;
+            }
+        }
+    }
+}

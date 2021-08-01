@@ -1,0 +1,22 @@
+.footer{
+    .margen{
+        padding: 0 50px;
+    }
+    border-top: double;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle, #FFAEC0, #28527A, #FFC75F, #F8DC81)
+}
+.pie{
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    .footer-h4{
+        color: #000;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+}
+
+
