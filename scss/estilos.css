@@ -1,0 +1,315 @@
+.padre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.padre .margen {
+  padding: 0 50px;
+}
+
+.padre .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.padre .header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  background: rgba(0, 0, 0, 0.1);
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.padre .header .logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  margin-top: 8px;
+}
+
+.padre .header .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Charmonman', cursive;
+}
+
+.padre .header .logo a:hover {
+  color: #343434;
+}
+
+.padre .header .nav {
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 auto;
+          flex: 5 1 auto;
+}
+
+.padre .header .nav a {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  letter-spacing: 2px;
+}
+
+.padre .header .nav a:hover {
+  color: #343434;
+}
+
+.padre .header .social {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.padre .header .social a {
+  font-size: 18px;
+  color: #fff;
+  padding: 0 5px;
+}
+
+/*-----------contenido index.html----------*/
+.texto-principal {
+  height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.texto-principal .margen {
+  padding: 0 50px;
+}
+
+.texto-principal .indexText {
+  position: relative;
+  bottom: 23rem;
+  background: rgba(167, 163, 163, 0.5);
+  font-family: cursive;
+  font-size: 25px;
+  color: #13010e;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.texto-principal .indexText .infoGluten {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  bottom: 15rem;
+  left: 5rem;
+}
+
+.footer {
+  border-top: double;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: radial-gradient(circle, #FFAEC0, #28527A, #FFC75F, #F8DC81);
+}
+
+.footer .margen {
+  padding: 0 50px;
+}
+
+.pie {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.pie .footer-h4 {
+  color: #000;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+/*--------------contenido de galeria.html-------------*/
+.titleGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  padding: 40px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  color: #000000;
+}
+
+.contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-top: 10px;
+  padding: 10px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contain .margen {
+  padding: 0 50px;
+}
+
+.contain .items {
+  position: relative;
+  bottom: 80px;
+  width: 250px;
+  margin: 10px;
+}
+
+.contain .items img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contain .items img:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+.contain .items img h3 {
+  font-size: 20px;
+  color: #000000;
+  padding: 5px;
+  margin-top: -10px;
+}
+
+/*-----------contenido nosotros.html GRID y FLEX----------*/
+.containGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100% 100%;
+      grid-template-columns: 100% 100%;
+}
+
+.containGrid .articulos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 4fr;
+      grid-template-columns: 4fr 4fr;
+}
+
+.containGrid .articulos .article1 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.containGrid .articulos .article1 img {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 60%;
+}
+
+.containGrid .articulos .article1 img:hover {
+  -webkit-transform: translate(90px);
+          transform: translate(90px);
+}
+
+.containGrid .article2 {
+  position: relative;
+  top: 4rem;
+  right: 4rem;
+}
+
+.containGrid .article2 h2 {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 3px;
+  background-color: lightsalmon;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containGrid .article2 h2 h3 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #faf2fc;
+  display: -ms-grid;
+  display: grid;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Days One', sans-serif;
+  background-image: url("../Glutenfree galeria/Gluten free fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: contain;
+}
+/*# sourceMappingURL=estilos.css.map */
